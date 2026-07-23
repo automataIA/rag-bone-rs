@@ -60,3 +60,7 @@ lto = "fat"
 codegen-units = 1
 panic = "abort"
 strip = "debuginfo"
+
+# cargo-dist builds release artifacts with `--profile dist`.
+[profile.dist]
+inherits = "release"
