@@ -1,0 +1,15 @@
+/target
+/info
+/.rag-bone/
+/.fastembed_cache/
+/models/
+eval/sir-corpus/models
+/eval/artifacts/
+**/.rag-bone/
+**/__pycache__/
+*.pyc
+
+/*.md
+!README.md
+/docs
+/eval

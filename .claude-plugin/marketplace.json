@@ -1,0 +1,20 @@
+{
+  "name": "rag-bone",
+  "description": "rag-bone: local semantic search over code and docs, packaged as an agent skill.",
+  "owner": {
+    "name": "carcall"
+  },
+  "plugins": [
+    {
+      "name": "rag-bone",
+      "source": "./",
+      "description": "Local semantic search over code and docs (hybrid dense+BM25, tree-sitter chunking) via the rag-bone CLI. Few high-relevance chunks with file paths and line ranges instead of whole files.",
+      "author": {
+        "name": "carcall"
+      },
+      "skills": [
+        "./skills/claude-code/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[advisories]
+ignore = [
+    { id = "RUSTSEC-2024-0436", reason = "paste is transitive through tokenizers/fastembed; no maintained fastembed release removes it yet" },
+]
