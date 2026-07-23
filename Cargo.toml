@@ -1,12 +1,17 @@
 [package]
 name = "rag-bone-rs"
 version = "0.1.0"
+repository = "https://github.com/automataIA/rag-bone-rs"
 edition = "2024"
 rust-version = "1.88"
 description = "Local semantic search CLI for documentation and multi-language codebases"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 publish = false
+
+# publish = false hides the package from dist too; opt back in for release builds.
+[package.metadata.dist]
+dist = true
 
 [[bin]]
 name = "rag-bone"
